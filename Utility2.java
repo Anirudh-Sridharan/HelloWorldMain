@@ -1,4 +1,4 @@
-public class Utility { 
+public class Utility2 { 
 	public static void printHelloWorld() { 
 		System.out.println("Hello World!");
 	} 
