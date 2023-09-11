@@ -1,6 +1,10 @@
 public class HelloWorld{
 	public static void main(String[] args){
-		System.out.println("Hello World!");
+		try{
+			Utility2.printHelloWorld(args[0]);
+		} catch (ArrayIndexOutOfBoundsException e){
+			System.out.println("Please enter a paramter!");
+		}
+		
 }
-
 }
